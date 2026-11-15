@@ -1,0 +1,51 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01234567",
+      "briefTitle": "A Study of Drug X in Adults With Type 2 Diabetes",
+      "officialTitle": "A Phase 2, Randomized, Placebo-Controlled Study of Drug X in Type 2 Diabetes"
+    },
+    "statusModule": {
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Sponsor decision; questions to Dr. Alan Grant at agrant@example.org",
+      "startDateStruct": {"date": "2019-03", "type": "ACTUAL"},
+      "primaryCompletionDateStruct": {"date": "2020-11-15", "type": "ACTUAL"},
+      "completionDateStruct": {"date": "2021-01-30", "type": "ACTUAL"},
+      "lastUpdatePostDateStruct": {"date": "2022-06-01", "type": "ACTUAL"}
+    },
+    "sponsorCollaboratorsModule": {
+      "leadSponsor": {"name": "Example Pharma Inc.", "class": "INDUSTRY"},
+      "responsibleParty": {"type": "PRINCIPAL_INVESTIGATOR", "investigatorFullName": "Ellie Sattler"}
+    },
+    "descriptionModule": {
+      "briefSummary": "This study tests Drug X. Call +1 (415) 555-0134 for details."
+    },
+    "conditionsModule": {
+      "conditions": ["Type 2 Diabetes", "  Obesity  ", ""],
+      "keywords": ["glycemic control"]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": ["PHASE2"],
+      "enrollmentInfo": {"count": 120, "type": "ACTUAL"}
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* HbA1c 7.0-10.5%\n* Diagnosed 2015-01-01 or later\n\nExclusion Criteria:\n\n* eGFR < 30 mL/min",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years"
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [{"name": "Jane Doe", "phone": "415-555-0100", "email": "jdoe@example.org"}],
+      "overallOfficials": [{"name": "Ian Malcolm, MD", "role": "PRINCIPAL_INVESTIGATOR"}],
+      "locations": [
+        {"facility": "City Hospital", "city": "Oakland", "country": "United States",
+         "contacts": [{"name": "John Roe", "email": "jroe@example.org"}]},
+        {"facility": "General Clinic", "city": "Toronto", "country": "Canada"},
+        {"facility": "Bay Clinic", "city": "Hayward", "country": "United States"}
+      ]
+    }
+  },
+  "hasResults": false
+}
